@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteRule ^home?$ index.php?go=home
+RewriteRule ^scoreboard?$ index.php?go=scoreboard
+RewriteRule ^login?$ index.php?go=login
+RewriteRule ^registration?$ index.php?go=registration
+RewriteRule ^forgetpass?$ index.php?go=forgetpass
+RewriteRule ^dashboard?$ index.php?go=profile
+RewriteRule ^dismis?$ index.php?go=dismis
+RewriteRule ^logout?$ index.php?go=logout
+RewriteRule ^quiz?$ index.php?go=quiz
+RewriteRule ^admin131?$ index.php?go=admin131
+RewriteRule ^questions?$ phpages/fetchdata.php
+RewriteRule ^result?$ phpages/result.php
